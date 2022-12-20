@@ -7,10 +7,21 @@ div{font-size: 40px;
      margin-top: 100px;
     border: solid ;
     border-radius: 100px;
+    box-shadow: 0 0 5px cyan,
+            0 0 19px cyan;
 }
 button{background-color: black;
         color:#1589FF;
         border-radius: 30px;
         font-size: 30px;
-        border: solid #1589FF ;}
+        border: solid #1589FF ;
+    box-shadow: 0 0 5px cyan,
+            0 0 19px cyan;
+}
+button:hover {
+            box-shadow: 0 0 5px cyan,
+            0 0 12px cyan, 0 0 15px cyan,
+            0 0 80px cyan, 0 0 80px cyan;
+        }
+       
 ul{list-style: none;}
